@@ -28,6 +28,7 @@
 	excludesfile = ~/.cvsignore
 	editor = vim
 	whitespace = warn
+	autocrlf = input
 [help]
 	autocorrect = 10
 [include]
@@ -58,3 +59,6 @@
 	autosquash = true
 [diff]
 	algorithm = patience
+[user]
+	name = Ioannis Suarez
+	email = canadiense@gmail.com

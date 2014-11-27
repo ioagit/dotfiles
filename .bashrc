@@ -40,3 +40,13 @@ fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ ! -f "$HOME/.bashrc.local" ] || . "$HOME/.bashrc.local"
+
+#alias tmux="tmux -f ~/.tmux.conf"
+alias tu="top -o cpu"
+alias tm="top -o vsize"
+alias gs="git status"
+alias ga= "git add ."
+
+function gg() {
+ git commit -v -a -m "$*"
+}
